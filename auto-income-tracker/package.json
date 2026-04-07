@@ -1,0 +1,47 @@
+{
+  "name": "auto-income-tracker",
+  "version": "1.0.0",
+  "description": "Automatic income tracking and management tool for OpenClaw users",
+  "main": "income-tracker.sh",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "income",
+    "finance",
+    "tracking",
+    "money",
+    "earnings",
+    "budget",
+    "expense",
+    "report"
+  ],
+  "author": "Erdog AI",
+  "license": "MIT",
+  "dependencies": {
+    "sqlite3": "^5.0.0"
+  },
+  "clawhub": {
+    "category": "productivity",
+    "price": 5.00,
+    "currency": "USD",
+    "tags": ["income", "finance", "tracking", "money", "earnings", "budget"],
+    "requires": {
+      "bins": ["sqlite3", "bc"]
+    },
+    "install": [
+      {
+        "id": "sqlite3",
+        "kind": "apt",
+        "package": "sqlite3",
+        "label": "Install SQLite3"
+      },
+      {
+        "id": "bc",
+        "kind": "apt", 
+        "package": "bc",
+        "label": "Install bc calculator"
+      }
+    ]
+  }
+}

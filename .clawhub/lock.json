@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "skills": {
+    "weather": {
+      "version": "1.0.0",
+      "installedAt": 1775487355848
+    },
+    "git-essentials": {
+      "version": "1.0.0",
+      "installedAt": 1775487398873
+    },
+    "video-frames": {
+      "version": "1.0.0",
+      "installedAt": 1775487425036
+    },
+    "file-organizer-zh": {
+      "version": "1.0.0",
+      "installedAt": 1775487661453
+    },
+    "system-info": {
+      "version": "1.0.0",
+      "installedAt": 1775487679581
+    },
+    "security-auditor": {
+      "version": "1.0.0",
+      "installedAt": 1775487742059
+    }
+  }
+}
